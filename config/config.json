@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "trd7xvlwh15g2w51",
+    "password": "odg2uz0ato06jcxj",
+    "database": "oy3k0d6jnn76b12x",
+    "host": "l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false
   },
@@ -21,6 +21,7 @@
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": false,
+    "use_env_variable": "JAWSDB_URL"
   }
 }
